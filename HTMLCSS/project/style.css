@@ -1,0 +1,128 @@
+body {
+	font-family: Trebuchet MS;
+	width: 960px;
+	height: 100%;
+	margin: auto;
+	background-image: url(assets/bg.jpg);
+	/*background: #0f8284;
+	background: -webkit-linear-gradient(#0f8284, #ffffff);
+	background: -o-linear-gradient(#0f8284, #ffffff);
+	background: -moz-linear-gradient(#0f8284, #ffffff);
+	background: linear-gradient(#0f8284, #ffffff);*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+header {
+	height: 150px;
+	background: #183b7a;
+	padding: 10px
+}
+footer {
+	height: 50px;
+	background: #072760;
+	padding-top: 20px;
+}
+div.body {
+	background: #ffffff;
+	padding-bottom: 20px;
+	overflow: hidden;
+	opacity: 1;
+	clear: right
+}
+h1 {
+	color: #000080;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+h2 {
+	color: #000080;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+h3 {
+	color: #000080;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+p {
+	color: #000000	;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+h1.sitetitle a{
+	color: #ffffff;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+ul.navigation li {
+	display: inline;
+}
+ul.navigation li a {
+	text-decoration: none;
+	color: #000080;
+	background-color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 6px;
+}
+ul.navigation li a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #000080;
+	font-style: oblique;
+}
+iframe {
+	float: right;
+}
+div.clear{
+	clear: both;
+} /*this one is used to clear all of the float used so that everything aligns correctly*/
+ul.contact li{
+	color: #ffffff;
+	display: inline;
+	padding: 0 0 0 30px;
+}
+ul.contact li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+ul.contact li a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+ol.contents li a{
+	color: #000080;
+	text-decoration: none;
+}
+ol.contents li a:hover{
+	color: #000080;
+	text-decoration: underline;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px 10px;
+}
+caption {
+	font-weight: bold;
+}
+#searchBox {
+	float: right;
+	width: 350px;
+	height: 15px;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
